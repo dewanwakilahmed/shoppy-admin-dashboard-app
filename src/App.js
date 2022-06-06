@@ -10,7 +10,7 @@ import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 import "./App.css";
 
 const App = () => {
-  const activeMenu = true;
+  const activeMenu = false;
 
   return (
     <div>
