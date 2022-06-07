@@ -1416,6 +1416,7 @@ export const customersData = [
   },
   {
     CustomerID: 1036,
+
     CustomerName: "Nirav Joshi",
     CustomerEmail: "nirav@gmail.com",
     CustomerImage: avatar2,
@@ -5754,6 +5755,7 @@ export const financialChartData = [
     volume: 27939544,
   },
 ];
+
 export const PyramidData = [
   { x: "Sweet Treats", y: 120, text: "120 cal" },
   { x: "Milk, Youghnut, Cheese", y: 435, text: "435 cal" },
