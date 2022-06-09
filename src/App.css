@@ -20,6 +20,8 @@
   z-index: 1000000 !important;
 }
 
+/***********************/
+/* Custom Scrollbar    */
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -32,9 +34,10 @@
 ::-webkit-scrollbar-track {
   background-color: transparent;
 }
+/***********************/
 
-/* color-picker style  */
-
+/***********************/
+/* Color-picker Style  */
 #preview {
   background: transparent
     url("https://ej2.syncfusion.com/react/demos/src/color-picker/images/pen.png")
@@ -46,6 +49,7 @@
   max-width: 600px;
   background-color: #008000;
 }
+/***********************/
 
 .e-input-group:not(.e-float-icon-left),
 .e-input-group.e-success:not(.e-float-icon-left),
