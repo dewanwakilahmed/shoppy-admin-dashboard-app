@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 // CSS
 import "./index.css";
 
-// MAIN APP COMPONENT
+// MAIN APP
 import App from "./App";
 
 // Context API
