@@ -11,10 +11,11 @@ const navBarItemsState = {
 
 export const ContextProvider = ({ children }) => {
   const [currentScreenSize, setCurrentScreenSize] = useState(undefined);
-  const [toggleMenu, setToggleMenu] = useState(true);
-  const [toggleNavbarItem, setToggleNavbarItem] = useState(navBarItemsState);
-  const [toggleThemeSettings, setToggleThemeSettings] = useState(false);
-  const [currentThemeMode, setCurrentThemeMode] = useState("Dark");
+  const [isMenuActive, setIsMenuActive] = useState(true);
+  const [isNavbarItemActive, setIsNavbarItemActive] =
+    useState(navBarItemsState);
+  const [isThemeSettingsActive, setIsThemeSettingsActive] = useState(false);
+  const [currentThemeMode, setCurrentThemeMode] = useState("Light");
   const [currentThemeColor, setCurrentThemeColor] = useState("#03C9D7");
 
   const setThemeMode = (e) => {
@@ -30,7 +31,7 @@ export const ContextProvider = ({ children }) => {
   };
 
   const toggleOnClick = (clickedItem) => {
-    setToggleNavbarItem({ ...navBarItemsState, [clickedItem]: true });
+    setIsNavbarItemActive({ ...navBarItemsState, [clickedItem]: true });
   };
 
   return (
@@ -38,12 +39,12 @@ export const ContextProvider = ({ children }) => {
       value={{
         currentScreenSize,
         setCurrentScreenSize,
-        toggleMenu,
-        setToggleMenu,
-        toggleNavbarItem,
-        setToggleNavbarItem,
-        toggleThemeSettings,
-        setToggleThemeSettings,
+        isMenuActive,
+        setIsMenuActive,
+        isNavbarItemActive,
+        setIsNavbarItemActive,
+        isThemeSettingsActive,
+        setIsThemeSettingsActive,
         currentThemeMode,
         setCurrentThemeMode,
         currentThemeColor,

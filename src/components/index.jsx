@@ -13,10 +13,10 @@ import UserProfileComponent from "./UserProfileComponent";
 import HeaderComponent from "./HeaderComponent";
 
 import ChartsHeaderComponent from "./ChartsHeaderComponent";
-import LineChartComponent from "./LineChartComponent";
-import PieChartComponent from "./PieChartComponent";
-import SparkLineChartComponent from "./SparkLineChartComponent";
-import StackedChartComponent from "./StackedChartComponent";
+import LineChartComponent from "./Charts/LineChartComponent";
+import PieChartComponent from "./Charts/PieChartComponent";
+import SparkLineChartComponent from "./Charts/SparkLineChartComponent";
+import StackedChartComponent from "./Charts/StackedChartComponent";
 
 import FooterComponent from "./FooterComponent";
 
