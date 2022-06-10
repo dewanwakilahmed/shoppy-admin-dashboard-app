@@ -1,15 +1,39 @@
-export { default as Button } from "./Button";
-export { default as ThemeSettings } from "./ThemeSettings";
-export { default as Sidebar } from "./Sidebar";
-export { default as Navbar } from "./Navbar";
-export { default as Footer } from "./Footer";
-export { default as Cart } from "./Cart";
-export { default as Chat } from "./Chat";
-export { default as Notification } from "./Notification";
-export { default as UserProfile } from "./UserProfile";
-export { default as SparkLine } from "./Charts/SparkLine";
-export { default as LineChart } from "./Charts/LineChart";
-export { default as Stacked } from "./Charts/Stacked";
-export { default as Pie } from "./Charts/Pie";
-export { default as ChartsHeader } from "./ChartsHeader";
-export { default as Header } from "./Header";
+import ButtonComponent from "./ButtonComponent";
+
+import ThemeSettingsComponent from "./ThemeSettingsComponent";
+
+import NavbarComponent from "./NavbarComponent";
+import SidebarComponent from "./SidebarComponent";
+
+import CartComponent from "./CartComponent";
+import ChatComponent from "./ChatComponent";
+import NotificationComponent from "./NotificationComponent";
+import UserProfileComponent from "./UserProfileComponent";
+
+import HeaderComponent from "./HeaderComponent";
+
+import ChartsHeaderComponent from "./ChartsHeaderComponent";
+import LineChartComponent from "./LineChartComponent";
+import PieChartComponent from "./PieChartComponent";
+import SparkLineChartComponent from "./SparkLineChartComponent";
+import StackedChartComponent from "./StackedChartComponent";
+
+import FooterComponent from "./FooterComponent";
+
+export {
+  ButtonComponent,
+  ThemeSettingsComponent,
+  NavbarComponent,
+  SidebarComponent,
+  CartComponent,
+  ChatComponent,
+  NotificationComponent,
+  UserProfileComponent,
+  HeaderComponent,
+  ChartsHeaderComponent,
+  LineChartComponent,
+  PieChartComponent,
+  SparkLineChartComponent,
+  StackedChartComponent,
+  FooterComponent,
+};
