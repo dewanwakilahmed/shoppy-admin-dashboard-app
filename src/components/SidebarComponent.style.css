@@ -1,0 +1,69 @@
+.sidebar-component {
+  @apply h-screen
+  ml-3
+  pb-10
+  overflow-auto;
+}
+
+.sidebar-header {
+  @apply flex
+  justify-between
+  items-center;
+}
+
+.app-title {
+  @apply flex
+  gap-3
+  items-center
+  ml-3
+  mt-4
+  text-xl
+  text-slate-900
+  dark:text-white
+  font-extrabold
+  tracking-tight;
+}
+
+.close-sidebar-btn {
+  @apply block
+  text-xl
+  hover:bg-light-gray
+  mt-4
+  p-3
+  rounded-full
+  md:hidden;
+}
+
+.sidebar-links {
+  @apply mt-10;
+}
+
+.sidebar-link-title {
+  @apply text-gray-400
+  dark:text-gray-400
+  uppercase
+  m-3
+  mt-4;
+}
+
+.sidebar-link {
+  @apply flex
+  gap-5
+  items-center
+  text-base
+  capitalize
+  m-2
+  pl-4
+  pt-3
+  pb-2.5
+  rounded-lg
+  text-gray-700
+  dark:text-gray-200
+  dark:hover:text-black
+  hover:bg-light-gray;
+}
+
+.active {
+  @apply text-white
+  dark:hover:text-gray-200;
+}
