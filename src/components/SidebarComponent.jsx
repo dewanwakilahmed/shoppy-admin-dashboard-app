@@ -12,11 +12,11 @@ import { MdOutlineCancel } from "react-icons/md";
 // Syncfusion Components
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 
-// Dummy Data
-import { links } from "../data/dummy";
-
 // Context API
 import { useStateContext } from "../contexts/ContextProvider";
+
+// Dummy Data
+import { links } from "../data/dummy";
 
 const SidebarComponent = () => {
   const {

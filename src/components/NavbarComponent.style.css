@@ -1,0 +1,57 @@
+.navbutton {
+  @apply relative
+  hover:bg-light-gray
+  text-xl
+  p-3
+  rounded-full;
+}
+
+.navbutton-dot {
+  @apply absolute
+  right-2
+  top-2
+  inline-flex
+  h-2
+  w-2
+  rounded-full;
+}
+
+.navbar-component {
+  @apply relative
+  flex
+  justify-between
+  md:ml-6
+  md:mr-6
+  p-2;
+}
+
+.navbar-all-other-items-container {
+  @apply flex;
+}
+
+.user-profile-navbar-item {
+  @apply flex
+  gap-2
+  items-center
+  hover:bg-light-gray
+  p-1
+  rounded-lg
+  cursor-pointer;
+}
+
+.user-profile-img {
+  @apply h-8
+  w-8
+  rounded-full;
+}
+
+.user-profile-title,
+.user-profile-icon {
+  @apply text-14
+  text-gray-400;
+}
+
+.user-profile-name {
+  @apply font-bold
+  ml-1;
+}
