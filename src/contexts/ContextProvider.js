@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState } from "react";
 
 const StateContext = createContext();
 
-const navBarItemsState = {
+const navbarItemsState = {
   cart: false,
   chat: false,
   notification: false,
@@ -13,7 +13,7 @@ export const ContextProvider = ({ children }) => {
   const [currentScreenSize, setCurrentScreenSize] = useState(undefined);
   const [isMenuActive, setIsMenuActive] = useState(true);
   const [isNavbarItemActive, setIsNavbarItemActive] =
-    useState(navBarItemsState);
+    useState(navbarItemsState);
   const [isThemeSettingsActive, setIsThemeSettingsActive] = useState(false);
   const [currentThemeMode, setCurrentThemeMode] = useState("Light");
   const [currentThemeColor, setCurrentThemeColor] = useState("#03C9D7");
@@ -31,7 +31,7 @@ export const ContextProvider = ({ children }) => {
   };
 
   const toggleOnClick = (clickedItem) => {
-    setIsNavbarItemActive({ ...navBarItemsState, [clickedItem]: true });
+    setIsNavbarItemActive({ ...navbarItemsState, [clickedItem]: true });
   };
 
   return (
@@ -42,6 +42,7 @@ export const ContextProvider = ({ children }) => {
         isMenuActive,
         setIsMenuActive,
         isNavbarItemActive,
+        navbarItemsState,
         setIsNavbarItemActive,
         isThemeSettingsActive,
         setIsThemeSettingsActive,
