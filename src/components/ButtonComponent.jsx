@@ -21,7 +21,7 @@ const ButtonComponent = ({
     <button
       className={`button-component ${btnCSS}`}
       style={{ backgroundColor, color, borderRadius }}
-      type="submit"
+      type="button"
       onClick={() => setIsNavbarItemActive(navbarItemsState)}
     >
       {icon} {text}
