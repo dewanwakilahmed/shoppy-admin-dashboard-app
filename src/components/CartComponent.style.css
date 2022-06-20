@@ -130,6 +130,6 @@
   @apply font-semibold;
 }
 
-.cart-button-container {
+.cart-btn-container {
   @apply mt-5;
 }

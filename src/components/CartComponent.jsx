@@ -75,7 +75,7 @@ const CartComponent = () => {
           </div>
         </div>
 
-        <div className="cart-button-container">
+        <div className="cart-btn-container">
           <ButtonComponent
             color="white"
             backgroundColor={currentThemeColor}

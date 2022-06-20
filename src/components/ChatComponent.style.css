@@ -1,0 +1,97 @@
+.chat-component {
+  @apply absolute
+  top-16
+  right-5
+  md:right-52
+  w-96
+  bg-white
+  dark:bg-[#42464D]
+  p-8
+  rounded-lg;
+
+  z-index: 10000;
+}
+
+.chat-header {
+  @apply flex
+  justify-between
+  items-center;
+}
+
+.chat-header-title-info {
+  @apply flex
+  gap-3;
+}
+
+.chat-header-title {
+  @apply text-lg
+  dark:text-gray-200
+  font-semibold;
+}
+
+.new-messages-btn {
+  @apply text-xs
+  p-1
+  px-2
+  bg-orange-400
+  text-white
+  rounded;
+}
+
+.chat-body {
+  @apply mt-5;
+}
+
+.chat-item {
+  @apply flex
+  items-center
+  gap-5
+  border-b-1
+  border-color
+  p-3
+  leading-8
+  cursor-pointer;
+}
+
+.chat-user {
+  @apply relative;
+}
+
+.chat-user-img {
+  @apply h-10
+  w-10
+  rounded-full;
+}
+
+.user-online-status {
+  @apply absolute
+  -top-1
+  right-0
+  h-2
+  w-2
+  inline-flex
+  rounded-full;
+}
+
+.chat-msg {
+  @apply dark:text-gray-200
+  font-semibold;
+}
+
+.chat-desc,
+.chat-time {
+  @apply text-gray-500
+  dark:text-gray-400;
+}
+
+.chat-desc {
+  @apply text-sm;
+}
+
+.chat-time {
+  @apply text-xs;
+}
+
+.chat-btn-container {
+  @apply mt-5;
+}
