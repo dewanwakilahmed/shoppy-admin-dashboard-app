@@ -24,7 +24,7 @@ const ChatComponent = () => {
         <div className="chat-header-title-info">
           <p className="chat-header-title">Messages</p>
 
-          <button className="new-messages-btn" type="button">
+          <button className="new-messages-count" type="button">
             5 New
           </button>
         </div>

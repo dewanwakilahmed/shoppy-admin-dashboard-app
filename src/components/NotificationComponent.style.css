@@ -1,0 +1,74 @@
+.notification-component {
+  @apply absolute
+  top-16
+  right-5
+  md:right-40
+  w-96
+  bg-white
+  dark:bg-[#42464D]
+  p-8
+  rounded-lg;
+
+  z-index: 10000;
+}
+
+.notification-header {
+  @apply flex
+  justify-between
+  items-center;
+}
+
+.notification-header-title-info {
+  @apply flex
+  gap-3;
+}
+
+.notification-header-title {
+  @apply text-lg
+  dark:text-gray-200
+  font-semibold;
+}
+
+.new-notifications-count {
+  @apply text-xs
+  text-white
+  bg-orange-400
+  p-1
+  px-2
+  rounded;
+}
+
+.notification-body {
+  @apply mt-5;
+}
+
+.notification-item {
+  @apply flex
+  gap-5
+  items-center
+  p-3
+  leading-8
+  border-b-1
+  border-color;
+}
+
+.notification-user-img {
+  @apply h-10
+  w-10
+  rounded-full;
+}
+
+.notification-msg {
+  @apply dark:text-gray-200
+  font-semibold;
+}
+
+.notification-desc {
+  @apply text-sm
+  text-gray-500
+  hover:text-gray-400;
+}
+
+.notification-btn-container {
+  @apply mt-5;
+}

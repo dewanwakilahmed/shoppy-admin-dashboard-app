@@ -29,7 +29,7 @@
   font-semibold;
 }
 
-.new-messages-btn {
+.new-messages-count {
   @apply text-xs
   p-1
   px-2
